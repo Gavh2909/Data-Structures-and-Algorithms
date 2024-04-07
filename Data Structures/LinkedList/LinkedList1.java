@@ -1,3 +1,4 @@
+package LinkedList;
 import java.util.LinkedList;
 import java.util.List;
 public class LinkedList1 {
@@ -57,6 +58,6 @@ public class LinkedList1 {
 
        ls.toArray(); // converts the list into array
 
-       int size = ls.size();
+       ls.size();
     }
 }
