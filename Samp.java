@@ -1,14 +1,16 @@
-import java.util.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 public class Samp{
 
      public static void main(String []args){
-        LinkedList<Integer> ls = new LinkedList<>(List.of(12, 23, 12));
-        Collections.sort(ls, (a,b)-> b-a);  // this will sort the list in descending order
-        // Sort the LinkedList
-        // Collections.sort(ls);
-        
-        // Print the sorted LinkedList
-        System.out.println(ls); // this will sort the list in ascending order
-     }
+        Date dt = new Date();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+
+        System.out.println(LocalDate.now().format(formatter));
+        String dateString = "2024-04-10T14:30:00";
+        LocalDateTime dateTime = LocalDateTime.parse(dateString);
+        System.out.println(dateTime);     }
 }
