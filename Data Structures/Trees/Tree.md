@@ -39,4 +39,4 @@
 
  ![Ordered Binary Tree](https://static.javatpoint.com/ds/images/binary-search-tree1.png)
 
- A^2  
+3^2  
