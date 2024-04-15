@@ -14,6 +14,7 @@
  - Sibling
  - Edge
  - Height
+ - Degree
  - LEaf Node
  - Level
  - Ancestor
@@ -39,4 +40,35 @@
 
  ![Ordered Binary Tree](https://static.javatpoint.com/ds/images/binary-search-tree1.png)
 
-3^2  
+# Additional Properties
+- In Perfect Binary Tree
+  height =h
+  total Node = 2^(h+1)-1
+
+  if level =i
+  then no of Nodes on that level = 2^i
+
+  - Total no of leaf Nodes in perfect Binary Tree = 2^height
+
+  N =  no of leaves
+  log(N)+1 = levels atleast
+
+  N =  no of Nodes 
+   log(N+1) = minimum levels
+  
+Strict Binary Tree:
+
+  N= leaf Nodes
+  Internal Nodes = N-1
+
+No of leaf Nodes = 1 + No of internal Nodes
+
+
+## Implementation :
+ 1. Linked representation 
+ 2. Sequential representation
+
+
+# Travrsal
+
+1. Pre order Traversal -> NLR
