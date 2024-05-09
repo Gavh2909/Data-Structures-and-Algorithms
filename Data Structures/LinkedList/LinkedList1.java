@@ -21,6 +21,7 @@ public class LinkedList1 {
         ls.addLast(56); // adds the new alement at end of the list
 
         ls.contains(12);  // returns true if the list contains a specified element
+        
 
        boolean isContains = ls.containsAll(new LinkedList<>(List.of(12,56))); 
        System.out.println(isContains);
